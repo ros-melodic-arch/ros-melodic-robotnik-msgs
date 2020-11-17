@@ -1,7 +1,7 @@
 pkgbase = ros-melodic-robotnik-msgs
 	pkgdesc = ROS Definition of msgs and services used by some Robotnik's packages
 	pkgver = 1.0.0
-	pkgrel = 1
+	pkgrel = 2
 	url = http://wiki.ros.org/robotnik_msgs
 	arch = any
 	license = BSD
@@ -10,6 +10,7 @@ pkgbase = ros-melodic-robotnik-msgs
 	makedepends = ros-melodic-catkin
 	makedepends = ros-melodic-message-generation
 	makedepends = ros-melodic-std-msgs
+	makedepends = git
 	depends = ros-melodic-message-runtime
 	depends = ros-melodic-std-msgs
 	depends = python-rospkg
